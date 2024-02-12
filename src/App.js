@@ -24,7 +24,9 @@ export default function App() {
   const [xAxisLabels, setXAxisLabels] = useState([]);
   const [yAxisLabels, setYAxisLabels] = useState([]);
 
-  useEffect(() => {
+
+  useEffect(() => {yAxisLabels
+    console.log(xAxisLabels, )
     const fetchData = async () => {
       try {
         const responseY = await fetch("https://retoolapi.dev/o5zMs5/data");
