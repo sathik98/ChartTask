@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false npm run build",
+    "build": "CI=false rescripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
